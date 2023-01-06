@@ -12,12 +12,11 @@ namespace Guanguans\ComposerGlobalPackManagerTests;
 
 use Composer\Plugin\PluginInterface;
 use Guanguans\ComposerGlobalPackManager\PackManager;
-use Mockery;
 
 final class PackManagerTest extends TestCase
 {
     public function testInstanceOf()
     {
-        $this->assertInstanceOf(PluginInterface::class, Mockery::mock(PackManager::class));
+        $this->assertInstanceOf(PluginInterface::class, \Mockery::mock(PackManager::class));
     }
 }
