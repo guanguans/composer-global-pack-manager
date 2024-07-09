@@ -34,7 +34,7 @@
         "composer-plugin-api": "^1.1|^2.0"
     },
     "require-dev": {
-        "brainmaestro/composer-git-hooks": "^2.8",
+        "brainmaestro/composer-git-hooks": "^3.0",
         "code-lts/doctum": "^5.4",
         "composer/composer": "^1.5|^2.0",
         "friendsofphp/php-cs-fixer": "^3.4",
